@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * 
+ * this file is created to print th below line 
  */
 #include <stdio.h>
 /**
@@ -13,5 +13,5 @@ int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
-	return(0);
+	return (0);
 }
