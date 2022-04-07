@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * Created:toprinthbelowline. 
+ * 
  */
 
 #include <stdio.h>
