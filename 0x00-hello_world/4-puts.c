@@ -1,13 +1,16 @@
 /*
- * File :4-puts.c
-*/
-#include<stdio.h>
-/** 
- * main _prints the "Programing is like buildig a multilingual puzzle"
- * Use the function puts You are not allowed to use printf 
+ * File: 4-puts.c
  * 
- * return: 0 Your program should end with the value_0
-*/
+ */
+
+#include <stdio.h>
+
+/**
+ * main - Prin "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: 0.
+ */
 int main(void)
 
 {
