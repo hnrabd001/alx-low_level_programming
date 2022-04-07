@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * this file is created to print th below line 
+ *this file is created to print th below line 
  */
 #include <stdio.h>
 /**
