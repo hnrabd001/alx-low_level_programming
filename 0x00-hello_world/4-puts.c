@@ -1,8 +1,10 @@
 /*
  * File: 4-puts.c
- *this file is created to print th below line 
+ * Created: to print th below line 
  */
+
 #include <stdio.h>
+
 /**
  * main - Prin "Programming is like building a multilingual
  *                puzzle, followed by a new line.
