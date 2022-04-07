@@ -1,12 +1,12 @@
-/*
- * File: 4-puts.c
- * 
- */
-
 #include <stdio.h>
 
 /**
- * main - Prin "Programming is like building a multilingual
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+/**
+ * main - Print "Programming is like building a multilingual
  *                puzzle, followed by a new line.
  *
  * Return: 0.
