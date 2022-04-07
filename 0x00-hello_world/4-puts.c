@@ -1,8 +1,12 @@
+/*
+ * File :4-puts.c
+*/
 #include<stdio.h>
 /** 
- * int main
+ * main _prints the "Programing is like buildig a multilingual puzzle"
  * Use the function puts You are not allowed to use printf 
- * Your program should end with the value_0
+ * 
+ * return: 0 Your program should end with the value_0
 */
 int main(void)
 
