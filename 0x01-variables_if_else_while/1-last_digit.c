@@ -1,6 +1,6 @@
 /*
  * File: 1-last_digit.c
- * 
+ * this file is written by abdrohman
  */
 
 #include <stdlib.h>
