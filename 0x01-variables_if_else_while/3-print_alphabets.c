@@ -8,7 +8,7 @@
 /**
  * main - Prints the alphabet in lowercase, and then in uppercase.
  *
- * Return: Always 0.
+ * Return: Always 0 (success).
  */
 int main(void)
 {
@@ -24,4 +24,3 @@ int main(void)
 
 	return (0);
 }
-© 2022 GitHub, Inc.
