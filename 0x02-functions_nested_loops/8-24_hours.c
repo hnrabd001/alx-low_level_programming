@@ -6,9 +6,11 @@
 #include "main.h"
 
 /**
- * Prints every minute of the day of
- * starting from 00:00 to 23:59.
+ * main s every minute of the day of
+ *
+ * Return always 0. 00 to 23:59.
  */
+int main(void)
 void jack_bauer(void)
 {
 	int hour, minute;
