@@ -6,11 +6,10 @@
 #include "main.h"
 
 /**
- * main s every minute of the day of
- *
- * Return always 0. 00 to 23:59.
+ * jack_bauer - Prints every minute of the day of
+ *              Jack Bauer, starting from 00:00 to 23:59.
+ * Return: always 0.
  */
-int main(void)
 void jack_bauer(void)
 {
 	int hour, minute;
