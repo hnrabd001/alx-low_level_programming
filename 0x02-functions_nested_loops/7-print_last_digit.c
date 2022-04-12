@@ -1,10 +1,8 @@
 /*
  * File: 7-print_last_digit.c
- * Abdrohman 
+ * Abdrohman
  */
-
 #include "main.h"
-
 /**
  * print_last_digit - Prints the last digit of a number.
  * @n: The number in question.
