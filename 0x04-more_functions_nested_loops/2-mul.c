@@ -4,7 +4,6 @@
  */
 
 #include "main.h"
-#include <studio.h>
 /**
  * mul - Multiples two integers.
  * @a: The first integer to be multiplied.
