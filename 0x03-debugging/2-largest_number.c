@@ -8,9 +8,9 @@
  * Return: always 0.
  */
 
-int largest_number(int a, int b, int c)
+int main (void)
 {
-	int largest;
+	int largest_number(int a, int b, int c);
 
 	if (a >= b && a >= c)
 	{
