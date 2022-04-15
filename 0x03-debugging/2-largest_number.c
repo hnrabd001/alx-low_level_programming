@@ -1,5 +1,5 @@
 #include "stdio.h"
-
+#include "main.h"
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -9,9 +9,9 @@
  * Return: largest number
  */
 
-int main()
+int main(void)
 {
-    int (a, b, largest);
+    int (int a, int b, int largest);
 
     if (a > b && b > c)
     {
