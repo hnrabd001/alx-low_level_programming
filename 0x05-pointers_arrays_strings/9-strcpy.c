@@ -1,27 +1,40 @@
-/*
+/* 
  * File: 9-strcpy.c
- * Abdrohman E Hanur
+ * Author Abdrohman Ebrahim
  */
-
 #include "main.h"
 
 /**
- * _strcpy - Copies a string pointed to by @src, including the
- *           terminating null byte, to a buffer pointed to by @dest.
- * @dest: A buffer to copy the string to.
- * @src: The source string to copy.
+ * _strcpy - copies the string pointed to by src, including the terminating
+ * null byte ('\0')
+ * @dest: the destination string
+ * @src: the source string to be copied
  *
- * Return: A pointer to the destination string @dest.
+ * Return: the pointer to dest
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int index = 0;
+	int i;
 
-	while (src[index])
-	{
-		dest[index] = src[index];
-		index++;
-	}
-
+	for (i = 0; i <= _strlen(src); i++)
+		dest[i] = src[i];
 	return (dest);
+}
+/**
+ * _strlen - length of a string
+ * @s: the string to check
+ *
+ * Return: length of the string
+ */
+int _strlen(char *s)
+{
+	int length;
+
+	length = 0;
+
+	for (length = 0; *s != '\0'; s++)
+	{
+		length++;
+	}
+	return (length);
 }
